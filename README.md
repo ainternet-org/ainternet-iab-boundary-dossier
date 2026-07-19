@@ -40,7 +40,8 @@ Redacted samples of exactly these outputs live in [`evidence/`](evidence/).
 - [`test-vectors/valo-pass-degrade-halt.md`](test-vectors/valo-pass-degrade-halt.md) — PASS/DEGRADE/HALT mapped to IAB verdicts.
 - [`evidence/`](evidence/) — redacted sample outputs for provision, launch and System-BOM.
 - [`pentest-notes/refusal-cases.md`](pentest-notes/refusal-cases.md) — refusal behavior and dark reasons.
-- [`w3c-jis/standards-alignment.md`](w3c-jis/standards-alignment.md) — W3C/JIS/VC alignment points.
+- [`references.md`](references.md) — the external trail: IETF drafts, Zenodo papers (DOI), independent pickup.
+- [`w3c-jis/standards-alignment.md`](w3c-jis/standards-alignment.md) — how the layers map to open standards.
 - [`glossary.md`](glossary.md) — shared vocabulary (`aint`, `raint`, `waint`, SNAFT, MUX, TIBET, can_carry).
 
 ## Quick reading path
@@ -83,9 +84,9 @@ The pieces are deliberately open and spread across the commons:
   the readable architecture overview, and the live protocol drafts.
 - **[github.com/ainternet-org](https://github.com/ainternet-org)** — the commons org: this dossier + the
   conformance families. The substrate implementation source opens publicly on release.
-- **JIS · TIBET · AINS** — the identity, provenance and discovery layers, submitted as IETF
-  Internet-Drafts and aligned to W3C VC/DID (see [`w3c-jis/standards-alignment.md`](w3c-jis/standards-alignment.md)
-  and ainternet.org).
+- **JIS · TIBET · AINS** — the identity, provenance and discovery layers, submitted as **IETF
+  Internet-Drafts** and independently referenced across the emerging agent-discovery stack (the full
+  external trail — drafts, Zenodo papers, community pickup — is in [`references.md`](references.md)).
 - **[github.com/Jtel-ZTIP-w3c](https://github.com/Jtel-ZTIP-w3c)** — ZTIP (Zero-Trust Identification
   Protocol) + the runnable interop conformance family (comms · security · evidence · VINK attestation):
   independent implementations agree, **bring your own verifier** — no vendor needed to prove it green.
