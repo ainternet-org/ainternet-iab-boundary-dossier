@@ -17,20 +17,21 @@ The claim is narrow and testable:
 > current identity, authority, posture, locality, machine facts, runtime binding and receipts — and
 > enforces that verdict **natively, before anything runs**.
 
-## Don't just read prose — run it
+## The boundary is a verdict, not a diagram
 
-The boundary is not a diagram; it is a running verdict. On a box:
+The box exposes its decisions as machine-readable verdicts. These are the operator verbs and what they
+return — and the **redacted live samples are in [`evidence/`](evidence/)**, so you can inspect the actual
+shape without the box in hand (the implementation opens publicly on release):
 
 ```sh
-./box provision status --json   # authority · posture · admissibility (carry_decision/blocked_by) · next command
-./box launch --json             # the fail-closed launch verdict
-
-# a loopback Ollama actor carries with no egress; a Codex CLI actor (traffic → api.openai.com)
-# fails CLOSED under a local-only posture until posture is raised AND egress is granted:
-./box bind codex                # → 0x0000:egress-not-permitted
+box provision status --json   # authority · posture · admissibility (carry_decision/blocked_by) · next command
+box launch --json             # the fail-closed launch verdict
+box bind codex                # → 0x0000:egress-not-permitted  (external CLI under a local-only posture)
 ```
 
-Redacted samples of exactly these outputs live in [`evidence/`](evidence/).
+A loopback Ollama actor carries with no egress; a Codex CLI actor (traffic → `api.openai.com`) fails
+**closed** under a local-only posture until posture is raised *and* egress is granted. The redacted
+outputs under [`evidence/`](evidence/) are the proof — not a promise you can run it yet.
 
 ## What this dossier contains
 
