@@ -86,6 +86,9 @@ The pieces are deliberately open and spread across the commons:
 - **JIS · TIBET · AINS** — the identity, provenance and discovery layers, submitted as IETF
   Internet-Drafts and aligned to W3C VC/DID (see [`w3c-jis/standards-alignment.md`](w3c-jis/standards-alignment.md)
   and ainternet.org).
+- **[github.com/Jtel-ZTIP-w3c](https://github.com/Jtel-ZTIP-w3c)** — ZTIP (Zero-Trust Identification
+  Protocol) + the runnable interop conformance family (comms · security · evidence · VINK attestation):
+  independent implementations agree, **bring your own verifier** — no vendor needed to prove it green.
 - **[Humotica](https://humotica.com)** — the steward / keeper: the entity that signs, supports and
   carries the substrate for production and enterprise deployments. The commons stays open (`pip install`,
   build your own); the keeper is the accountable, supported path for scale.
