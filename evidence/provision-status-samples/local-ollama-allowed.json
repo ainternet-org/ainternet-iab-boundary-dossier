@@ -1,0 +1,20 @@
+{
+  "root": "jasper.aint",
+  "provisioned": true,
+  "result": "0x4000",
+  "posture": "LOCAL_ONLY",
+  "actors": [
+    {
+      "aint": "qwen.aint",
+      "form_shape": "local-api",
+      "provider": "ollama",
+      "endpoint": "http://127.0.0.1:11434",
+      "model": "qwen2.5:7b",
+      "locality": "local",
+      "bindable": true,
+      "can_carry": true,
+      "test_state": "0x4000"
+    }
+  ]
+}
+

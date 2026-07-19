@@ -1,0 +1,14 @@
+{
+  "ready": true,
+  "result": "0x4000",
+  "root": "jasper.aint",
+  "posture": "LOCAL_ONLY",
+  "can_carry": ["qwen.aint"],
+  "bare": {
+    "identity": true,
+    "machine_posture": true,
+    "human_posture": true,
+    "receipts": true
+  }
+}
+

@@ -1,0 +1,20 @@
+{
+  "root": "jasper.aint",
+  "provisioned": false,
+  "result": "0x4000",
+  "posture": "LOCAL_ONLY",
+  "actors": [
+    {
+      "aint": "codex.aint",
+      "form_shape": "cli",
+      "runtime": "codex",
+      "locality": "external",
+      "egress_target": "api.openai.com",
+      "bindable": false,
+      "carry_decision": "deny",
+      "blocked_by": ["egress-not-permitted"],
+      "next_command": "box provision set-snaft NORMAL + box grant egress codex.aint"
+    }
+  ]
+}
+

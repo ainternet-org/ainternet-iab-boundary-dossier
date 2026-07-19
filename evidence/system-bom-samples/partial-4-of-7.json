@@ -1,0 +1,20 @@
+{
+  "kind": "system-bom",
+  "host": "redacted-host",
+  "verdict": "partial",
+  "present": "4/7",
+  "sensors": {
+    "gpu": "missing",
+    "hw": "present",
+    "mux": "present",
+    "net": "present",
+    "ram": "warning",
+    "role": "missing",
+    "static": "present"
+  },
+  "ledger": {
+    "verdict": "intact"
+  },
+  "note": "Example only. Missing or partial sensors are explicit evidence, not implicit success."
+}
+
