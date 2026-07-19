@@ -87,7 +87,7 @@ The pieces are deliberately open and spread across the commons:
 - **JIS · TIBET · AINS** — the identity, provenance and discovery layers, submitted as **IETF
   Internet-Drafts** and independently referenced across the emerging agent-discovery stack (the full
   external trail — drafts, Zenodo papers, community pickup — is in [`references.md`](references.md)).
-- **[github.com/Jtel-ZTIP-w3c](https://github.com/Jtel-ZTIP-w3c)** — ZTIP (Zero-Trust Identification
+- **[github.com/ZTIP-Protocol](https://github.com/ZTIP-Protocol)** — ZTIP (Zero-Trust Identification
   Protocol) + the runnable interop conformance family (comms · security · evidence · VINK attestation):
   independent implementations agree, **bring your own verifier** — no vendor needed to prove it green.
 - **[Humotica](https://humotica.com)** — the steward / keeper: the entity that signs, supports and
