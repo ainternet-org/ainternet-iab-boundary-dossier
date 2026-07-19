@@ -43,7 +43,8 @@ Expected verdict:
 ```json
 {
   "result": "0x0000:egress-not-permitted",
-  "actor": "codex.waint",
+  "actor": "codex.aint",
+  "work_surface": "codex.waint",
   "locality": "external",
   "carry_decision": "deny"
 }
@@ -115,4 +116,3 @@ Expected verdict:
 ```
 
 Meaning: PAUSE/HALT until continuity is repaired.
-

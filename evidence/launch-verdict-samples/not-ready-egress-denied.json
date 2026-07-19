@@ -3,6 +3,8 @@
   "result": "0x0000:launch-not-ready",
   "reason": "egress-not-permitted",
   "actor": "codex.aint",
-  "next": "sudo ./box provision set-snaft NORMAL && sudo ./box grant egress codex.aint"
+  "next": [
+    "sudo ./box provision set-snaft NORMAL",
+    "sudo ./box grant egress codex.aint"
+  ]
 }
-
