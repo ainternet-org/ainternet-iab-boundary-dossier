@@ -83,6 +83,10 @@ The pieces are deliberately open and spread across the commons:
 
 - **[ainternet.org](https://ainternet.org)** — the network itself: `.aint` identity + discovery (AINS),
   the readable architecture overview, and the live protocol drafts.
+- **[ainternet.org/docs](https://ainternet.org/docs/)** — the deep-dive documentation environment: per-protocol
+  references (AINS · MUX · JIS · SNAFT · TIBET · IPoll …), operator runbooks, and hands-on *learn* labs
+  (bind an AI, keys-never-leave, GPU mailbox). A living, growing reference — the place to go one level deeper
+  than this dossier.
 - **[github.com/ainternet-org](https://github.com/ainternet-org)** — the commons org: this dossier + the
   conformance families. The substrate implementation source opens publicly on release.
 - **JIS · TIBET · AINS** — the identity, provenance and discovery layers, submitted as **IETF
