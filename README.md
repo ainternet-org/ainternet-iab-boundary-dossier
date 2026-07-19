@@ -81,8 +81,8 @@ The pieces are deliberately open and spread across the commons:
 
 - **[ainternet.org](https://ainternet.org)** — the network itself: `.aint` identity + discovery (AINS),
   the readable architecture overview, and the live protocol drafts.
-- **[github.com/ainternet-org](https://github.com/ainternet-org)** — the commons code: this dossier +
-  the substrate.
+- **[github.com/ainternet-org](https://github.com/ainternet-org)** — the commons org: this dossier + the
+  conformance families. The substrate implementation source opens publicly on release.
 - **JIS · TIBET · AINS** — the identity, provenance and discovery layers, submitted as IETF
   Internet-Drafts and aligned to W3C VC/DID (see [`w3c-jis/standards-alignment.md`](w3c-jis/standards-alignment.md)
   and ainternet.org).
