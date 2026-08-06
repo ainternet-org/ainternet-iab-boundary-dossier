@@ -37,6 +37,7 @@ outputs under [`evidence/`](evidence/) are the proof — not a promise you can r
 
 - [`architecture/boundary-map.md`](architecture/boundary-map.md) — where the substrate stops and policy layers begin.
 - [`architecture/layer-map.md`](architecture/layer-map.md) — L0/L1/L2/L3 placement.
+- [`architecture/boundary-walkthrough.md`](architecture/boundary-walkthrough.md) — a concrete end-to-end walkthrough: the two-verdict model with substrate outputs verbatim from a running box (not described, run).
 - [`operator-runbook.md`](operator-runbook.md) — terminal-first setup and actor examples.
 - [`test-vectors/valo-pass-degrade-halt.md`](test-vectors/valo-pass-degrade-halt.md) — PASS/DEGRADE/HALT mapped to IAB verdicts.
 - [`evidence/`](evidence/) — redacted sample outputs for provision, launch and System-BOM.
